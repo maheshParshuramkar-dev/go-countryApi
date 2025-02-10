@@ -1,0 +1,14 @@
+{
+    "Env": "local",
+    "Prefix": "/api/countries",
+    "Server": {
+      "Host": "localhost",
+      "Port": "3026",
+      "ReadTimeout": 5,
+      "WriteTimeout": 15
+    },
+    "ExtUrls":{
+        "CountiresFetchUrl":"https://restcountries.com/v3.1/name/",
+        "CtxTimeoutUrl": 3000
+    }
+  }
